@@ -1771,7 +1771,7 @@ body {
   color: #767676 !important;
 }
 .cid-rlhgCiWRsE {
-  background-image: url("../../../assets/images/logo-alita-final-592x207.png");
+  background-image: url("../../../assets/images/fondoweb-1-1920x1080.png");
 }
 .cid-rlhgCiWRsE h1 {
   color: #616161;
@@ -1794,7 +1794,7 @@ body {
 }
 .cid-rlhGKc3ipK {
   padding-top: 90px;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
   background-color: #efefef;
 }
 .cid-rlhGKc3ipK .card-box {
@@ -1817,7 +1817,6 @@ body {
   margin-bottom: 0;
   text-align: left;
   padding-top: 1.5rem;
-  padding-top: 2rem;
 }
 .cid-rlhGKc3ipK .mbr-text {
   color: #767676;
@@ -1825,7 +1824,7 @@ body {
 .cid-rlhGKc3ipK .card-wrapper {
   height: 100%;
   padding-bottom: 2rem;
-  background: #ffffff;
+  background: #cccccc;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
 }
@@ -1873,6 +1872,62 @@ body {
 .cid-rlKGE4wQDb .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
+}
+.cid-rlQLXwZoQt {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #cccccc;
+}
+.cid-rlQLXwZoQt .media-container-column {
+  align-items: center;
+  -webkit-align-items: center;
+}
+.cid-rlQLXwZoQt .mbr-author-desc {
+  display: block;
+}
+.cid-rlQLXwZoQt .mbr-testimonial {
+  flex-basis: auto;
+  margin-top: 5rem;
+  -webkit-flex-basis: auto;
+}
+.cid-rlQLXwZoQt .mbr-testimonial .panel-item {
+  background-color: #879a9f;
+  background: linear-gradient(#879a9f, transparent);
+}
+.cid-rlQLXwZoQt .mbr-testimonial .card-block {
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+  padding: 2rem;
+}
+.cid-rlQLXwZoQt .mbr-testimonial .card-block .testimonial-photo {
+  margin-top: -5rem;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.cid-rlQLXwZoQt .mbr-testimonial .card-block .testimonial-photo img {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+.cid-rlQLXwZoQt .mbr-testimonial .card-block p {
+  margin: 0;
+}
+.cid-rlQLXwZoQt .mbr-testimonial .card-footer {
+  padding: 0 2rem 2rem 2rem;
+  border-top: 0;
+  word-wrap: break-word;
+  word-break: break-word;
+  background: none;
+}
+@media (max-width: 260px) {
+  .cid-rlQLXwZoQt .testimonial-photo {
+    width: 100% !important;
+    height: auto !important;
+  }
 }
 .cid-rlL83BTC4t {
   padding-top: 60px;
@@ -4902,12 +4957,19 @@ body {
   color: #767676 !important;
 }
 .cid-rlhH33ZZTI {
-  background-image: url("../../../assets/images/jumbotron.jpg");
+  background-image: url("../../../assets/images/about-us-1920x1080.png");
+}
+.cid-rlhH33ZZTI H1 {
+  color: #232323;
+}
+.cid-rlhH33ZZTI .mbr-text,
+.cid-rlhH33ZZTI .mbr-section-btn {
+  color: #232323;
 }
 .cid-rlKXEtRihv {
   padding-top: 30px;
   padding-bottom: 0px;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-rlKXEtRihv .line {
   background-color: #149dcc;
@@ -4930,7 +4992,7 @@ body {
 .cid-rlKXPgcm9c {
   padding-top: 0px;
   padding-bottom: 30px;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
 .cid-rlKXPgcm9c .line {
   background-color: #149dcc;
@@ -4993,10 +5055,10 @@ body {
 .cid-rli63Uic9J {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #f9f9f9;
+  background-color: #efefef;
 }
 .cid-rli63Uic9J .mbr-section-subtitle {
-  color: #767676;
+  color: #232323;
 }
 .cid-rli63Uic9J .media-row {
   display: -webkit-flex;
@@ -5033,7 +5095,7 @@ body {
 .cid-rli650lozk {
   padding-top: 0px;
   padding-bottom: 30px;
-  background-color: #f9f9f9;
+  background-color: #efefef;
 }
 .cid-rli650lozk .mbr-section-subtitle {
   color: #767676;
@@ -5073,10 +5135,10 @@ body {
 .cid-rli65GKfjy {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #f9f9f9;
+  background-color: #efefef;
 }
 .cid-rli65GKfjy .mbr-section-subtitle {
-  color: #767676;
+  color: #232323;
 }
 .cid-rli65GKfjy .media-row {
   display: -webkit-flex;
@@ -5113,10 +5175,10 @@ body {
 .cid-rli66gbjU0 {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #f9f9f9;
+  background-color: #efefef;
 }
 .cid-rli66gbjU0 .mbr-section-subtitle {
-  color: #767676;
+  color: #232323;
 }
 .cid-rli66gbjU0 .media-row {
   display: -webkit-flex;
@@ -5153,7 +5215,7 @@ body {
 .cid-rli66PnUjr {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #f9f9f9;
+  background-color: #efefef;
 }
 .cid-rli66PnUjr .mbr-section-subtitle {
   color: #767676;
