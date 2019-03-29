@@ -6894,27 +6894,6 @@ body {
 .cid-rlLivwFu7b blockquote {
   color: #767676;
 }
-.cid-rlLirmHXus {
-  background: #efefef;
-  padding-top: 0px;
-  padding-bottom: 60px;
-}
-.cid-rlLirmHXus .image-block {
-  margin: auto;
-}
-.cid-rlLirmHXus figcaption {
-  position: relative;
-}
-.cid-rlLirmHXus figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rlLirmHXus .image-block {
-    width: 100% !important;
-  }
-}
 .cid-rlLis6IRio {
   padding-top: 45px;
   padding-bottom: 0px;
