@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Aliyah Battle Angle",
-    "currentPage": "appveyor.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -6864,7 +6864,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>Lets now talk about all the possibilities Appveyor offers to us.</p><p>\nWith Appveyor we can:</p><p></p><ul><li>Program customized behaviors each time a commit is pushed into the git version control.</li><li>Execute different behaviors for different branches.</li><li>Create folders, copy files, compressing and decompressing .zip files.</li><li>Publish releases into the GitHub Releases workflow.</li><li>Send messages automatically to the commit author if Appveyor detects compilation errors in a commit.</li><li>Synchronize Appveyor with some communicational platforms like Slack.</li><li>and much more!</li></ul><p>Its compatible with&nbsp;<span style=\"font-size: 1rem;\">Windows and Linux.</span></p><p><br></p><p></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>Lets now talk about all the possibilities Appveyor offers to us.</p><p>\nWith Appveyor we can:</p><p></p><ul><li>Program customized behaviors each time a commit is pushed into the git version control.</li><li>Execute different behaviors for different branches.</li><li>Create folders, copy files, compressing and decompressing .zip files.</li><li>Public releases into the GitHub Releases workflow.</li><li>Send messages automatically to the commit author if Appveyor detects compilation errors in a commit.</li><li>Synchronize Appveyor with some communicational platforms like Slack.</li><li>and much more!</li></ul><p>Its compatible with&nbsp;<span style=\"font-size: 1rem;\">Windows and Linux.</span></p><p><br></p><p></p></div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-27",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
