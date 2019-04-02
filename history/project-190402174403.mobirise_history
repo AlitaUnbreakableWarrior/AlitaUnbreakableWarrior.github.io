@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Aliyah Battle Angle",
-    "currentPage": "index.html",
+    "currentPage": "about-us.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -40,15 +40,13 @@
     "siteFonts": [],
     "uniqCompNum": 115,
     "versionPublish": "4.8.8",
-    "screenshot": "screenshot.png",
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/oscar/Desktop/GitHub/alitaunbreakablewarrior.github.io"
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Alita: Unbreakable Warrior",
+        "title": "index",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -853,7 +851,7 @@
     },
     "interviews.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Website Creator Description",
         "title": "Interviews",
         "order": 3
       },
@@ -1426,7 +1424,7 @@
     },
     "news.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Site Creator Description",
         "title": "News",
         "order": 4
       },
@@ -1999,7 +1997,7 @@
     },
     "devlog.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Web Page Creator Description",
         "title": "DevLogs",
         "order": 5
       },
@@ -2634,7 +2632,7 @@
     },
     "introduction.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Web Page Generator Description",
         "title": "Introduction",
         "order": 6
       },
@@ -3267,7 +3265,7 @@
     },
     "gallery.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Web Creator Description",
         "title": "Gallery",
         "order": 7
       },
@@ -4059,8 +4057,8 @@
     },
     "the-game.html": {
       "settings": {
-        "meta_descr": "",
-        "title": "The Game",
+        "meta_descr": "Site Maker Description",
+        "title": "TheGame",
         "order": 8
       },
       "components": [
@@ -4645,8 +4643,8 @@
     },
     "about-us.html": {
       "settings": {
-        "meta_descr": "",
-        "title": "About Us",
+        "meta_descr": "Web Site Builder Description",
+        "title": "AboutUs",
         "order": 9
       },
       "components": [
@@ -5637,7 +5635,7 @@
     },
     "particles.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Web Site Builder Description",
         "title": "DevLog: Particles",
         "order": 1
       },
@@ -6399,7 +6397,7 @@
     },
     "appveyor.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Web Site Builder Description",
         "title": "DevLog: Appveyor",
         "order": 2
       },
