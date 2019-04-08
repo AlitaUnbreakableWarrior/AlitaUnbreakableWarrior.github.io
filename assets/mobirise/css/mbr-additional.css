@@ -683,7 +683,6 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
-  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -1381,17 +1380,6 @@ body {
   .card-wrapper {
     flex: auto!important;
   }
-}
-.jq-selectbox li:hover,
-.jq-selectbox li.selected {
-  background-color: #149dcc;
-  color: #ffffff;
-}
-.jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
-}
-.jq-selectbox:hover .jq-selectbox__trigger-arrow {
-  border-top-color: #149dcc;
 }
 .cid-rlicSIfy8y .navbar {
   background: #ffffff;
@@ -2436,7 +2424,10 @@ body {
   color: #0f7699 !important;
 }
 .cid-rlLaDHpFF4 {
-  background-image: url("../../../assets/images/jumbotron.jpg");
+  background-image: url("../../../assets/images/fondoweb-1-1920x10801.png");
+}
+.cid-rlLaDHpFF4 H3 {
+  text-align: center;
 }
 .cid-rm1XweXOqo {
   padding-top: 30px;
@@ -2929,7 +2920,7 @@ body {
   color: #0f7699 !important;
 }
 .cid-rlLbvghJHC {
-  background-image: url("../../../assets/images/jumbotron.jpg");
+  background-image: url("../../../assets/images/news-2000x1333.jpg");
 }
 .cid-rm1Zb3XdHv {
   padding-top: 30px;
@@ -3430,7 +3421,7 @@ body {
   color: #0f7699 !important;
 }
 .cid-rlKIWJlnZ1 {
-  background-image: url("../../../assets/images/jumbotron.jpg");
+  background-image: url("../../../assets/images/devlogs-2000x1500.jpg");
 }
 .cid-rlKIWJlnZ1 H3 {
   text-align: center;
@@ -3469,6 +3460,22 @@ body {
 .cid-rlKKIaAszs H2 {
   text-align: center;
 }
+.cid-rn5v1tioc1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rn5v1tioc1 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rn5vfIDncr {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #cccccc;
+}
+.cid-rn5vfIDncr .mbr-section-subtitle {
+  color: #767676;
+}
 .cid-rm75rszaig {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -3486,22 +3493,6 @@ body {
   background-color: #cccccc;
 }
 .cid-rlKLEv1flH .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-rn5v1tioc1 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-rn5v1tioc1 .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-rn5vfIDncr {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #cccccc;
-}
-.cid-rn5vfIDncr .mbr-section-subtitle {
   color: #767676;
 }
 .cid-rmF2WsA3O3 {
@@ -5591,14 +5582,14 @@ body {
   color: #0f7699 !important;
 }
 .cid-rlhH33ZZTI {
-  background-image: url("../../../assets/images/about-us-1920x1080.png");
+  background-image: url("../../../assets/images/aboutus-1600x1200.jpg");
 }
 .cid-rlhH33ZZTI H1 {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-rlhH33ZZTI .mbr-text,
 .cid-rlhH33ZZTI .mbr-section-btn {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-rlKXEtRihv {
   padding-top: 30px;
