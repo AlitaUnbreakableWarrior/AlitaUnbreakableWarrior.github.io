@@ -45,7 +45,9 @@
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-137608927-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-137608927-1');\r\n</script>"
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-137608927-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-137608927-1');\r\n</script>",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/disob/Documents/GitHub/alitaunbreakablewarrior.github.io"
   },
   "pages": {
     "index.html": {
@@ -3372,8 +3374,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/unnamed-1.gif",
-                "thumb": "@PROJECT_PATH@/assets/images/unnamed-1.gif",
+                "image": "@PROJECT_PATH@/assets/images/unnamed%20(1).gif",
+                "thumb": "@PROJECT_PATH@/assets/images/unnamed%20(1).gif",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -3528,7 +3530,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/unnamed-3-464x512.png",
+                "image": "@PROJECT_PATH@/assets/images/unnamed%20(3)-464x512.png",
                 "thumb": "@PROJECT_PATH@/assets/images/unnamed-3-464x512-464x512.png",
                 "alt": "",
                 "title": "",
@@ -3554,7 +3556,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/unnamed-4-512x288.png",
+                "image": "@PROJECT_PATH@/assets/images/unnamed%20(4)-512x288.png",
                 "thumb": "@PROJECT_PATH@/assets/images/unnamed-4-512x288-512x288.png",
                 "alt": "",
                 "title": "",
@@ -3723,7 +3725,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/unnamed-1-512x280.png",
+                "image": "@PROJECT_PATH@/assets/images/unnamed%20(1)-512x280.png",
                 "thumb": "@PROJECT_PATH@/assets/images/unnamed-1-512x280-512x280.png",
                 "alt": "",
                 "title": "",
@@ -3736,7 +3738,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/unnamed-2-329x512.png",
+                "image": "@PROJECT_PATH@/assets/images/unnamed%20(2)-329x512.png",
                 "thumb": "@PROJECT_PATH@/assets/images/unnamed-2-329x512-329x512.png",
                 "alt": "",
                 "title": "",
@@ -3788,7 +3790,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/pasted-image-0-365x645.png",
+                "image": "@PROJECT_PATH@/assets/images/pasted%20image%200-365x645.png",
                 "thumb": "@PROJECT_PATH@/assets/images/pasted-image-0-365x645-365x645.png",
                 "alt": "",
                 "title": "",
@@ -13347,11 +13349,11 @@
           "_name": "content14",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\"><b>Combat:</b></p><p class=\"p-3\">- Improve our own Steering Behaviors (correct movement and avoidance)\n</p><p class=\"p-3\">- Use different Steering Behaviors depending on the situation\n</p><p class=\"p-3\">- Enemies Frustum Culling when they spawn and die\n</p><p class=\"p-3\">- Improve the AI (not very intelligent but not very silly)\n</p><p class=\"p-3\">- Improve the combat (interaction between Alita and the enemies)\n</p><p class=\"p-3\">- First implementation of the boss\n</p><p class=\"p-3\">- Alita can die\n</p><p class=\"p-3\">- Skilltree\n</p><p class=\"p-3\">- States system\n</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\"><b>Effects:</b></p><p class=\"p-3\">- Add more ambient sounds\n</p><p class=\"p-3\">- Improve characters’ audios (e.g. left and right step)\n</p><p class=\"p-3\">- Implement narrative’s audios\n</p><p class=\"p-3\">- Volume control\n</p><p class=\"p-3\">- Add shadows under the characters\n</p><p class=\"p-3\">- Smoother camera follow\n</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rpImKCOPVM",
-          "_anchor": "content14-59",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content14-59"
         },
         {
           "alias": false,
@@ -13369,11 +13371,11 @@
           "_name": "content14",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\"><b>Map:</b></p><p class=\"p-3\">- Second level mockup\n</p><p class=\"p-3\">- Model and texture the terrain for the second level\n</p><p class=\"p-3\">- Model and texture the valve, some bridges, some rocks, and more props for the second level\n</p><p class=\"p-3\">- Avoid repetitions of buildings in the first level\n</p><p class=\"p-3\">- Some doors close and do not open until all the enemies have been cleared\n</p><p class=\"p-3\">- Implement the narrative of both levels\n</p><p class=\"p-3\">- Implement the valves puzzle in the second level\n</p><p class=\"p-3\">- Add cinematics\n</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\"><b>UI:</b></p><p class=\"p-3\">- The texture of the mouse cursor changes depending on what is hovering\n</p><p class=\"p-3\">- Main menu\n</p><p class=\"p-3\">- Pause menu\n</p><p class=\"p-3\">- Each enemy has its own lifebar\n</p><p class=\"p-3\">- Floating damage animation when Alita hits an enemy\n</p><p class=\"p-3\">- Enemies drop items when they die\n</p><p class=\"p-3\">- Alita can pick items dropped by the enemies\n</p><p class=\"p-3\">- Inventory\n</p><p class=\"p-3\">- Equip and unequip items\n</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rpImXL44Iy",
-          "_anchor": "content14-5a",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content14-5a"
         },
         {
           "alias": false,
@@ -13391,11 +13393,11 @@
           "_name": "content14",
           "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\"><b>Other:</b></p><p class=\"p-3\">- Fog shader\n</p><p class=\"p-3\">- “Behind walls” shader\n</p><p class=\"p-3\">- Blood disappears with alpha\n</p><p class=\"p-3\">- Flash when an enemy is hit\n</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\"><br></p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rpIn9c5UpS",
-          "_anchor": "content14-5b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content14-5b"
         },
         {
           "alias": false,
