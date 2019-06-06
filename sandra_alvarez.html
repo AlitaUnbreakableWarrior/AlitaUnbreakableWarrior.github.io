@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v4.10.3, https://mobirise.com -->
+  <!-- Site made with Mobirise Website Builder v4.9.7, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.10.3, mobirise.com">
+  <meta name="generator" content="Mobirise v4.9.7, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/pp-122x122.jpg" type="image/x-icon">
   <meta name="description" content="">
@@ -63,7 +63,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/t">amp templates</a></section><section class="testimonials3 cid-rsDTZu0tuR mbr-parallax-background" id="testimonials3-eo">
+<section class="engine"><a href="https://mobirise.info">Mobirise</a></section><section class="testimonials3 cid-rsDTZu0tuR mbr-parallax-background" id="testimonials3-eo">
 
     
 
@@ -494,7 +494,7 @@
             <div class="card p-3 col-12 col-md-6">
                 <div class="card-wrapper media-container-row media-container-row">
                     <div class="card-box">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7">1. Projected Texture Shader</h4>
+                        <h4 class="card-title pb-3 mbr-fonts-style display-7">FIRST APPROACH. Projected Texture Shader</h4>
                         <p class="mbr-text mbr-fonts-style display-7">Instead of drawing the image onto the surface of a plane, which could cause the plain to not adapt correctly onto certain irregular surfaces, I followed the technique of projective texture mapping. Our map has lots of small elements laying on the ground.<br><br><strong>→ The good: </strong>the image was applied to all the geometry as if it was a projection from an hypothetical “slide projector”.<br><strong>→ The bad: </strong>the affected area could not be edited, resulting in the image being drawn onto all the surfaces of the geometry in a straight line in front of the projector.&nbsp;<br></p>
                     </div>
                 </div>
@@ -503,7 +503,7 @@
             <div class="card p-3 col-12 col-md-6 col-12 col-md-6">
                 <div class="card-wrapper media-container-row">
                     <div class="card-box">
-                        <h4 class="card-title pb-3 mbr-fonts-style display-7">2. Deferred Decal Shader</h4>
+                        <h4 class="card-title pb-3 mbr-fonts-style display-7">FINAL IMPLEMENTATION. Deferred Decal Shader</h4>
                         <p class="mbr-text mbr-fonts-style display-7">When <a href="guillem_costa.html" target="_blank">Guillem </a>made the renderer deferred, he opened me the door to move to deferred decals, because we suddenly had access to the G-Buffer. Even though the result was visually the same, it had a better performance and was easier to maintain.<br><br><strong>→ The good:</strong> it was not needed to render the whole scene for each decal, each geometry could have more than one decal drawn, and the affected area was inside a box.
 <br><strong>→ The bad: </strong>I followed the article “A Deferred Decal Rendering Technique” from the book Game Engine Gems 1 and I stopped using the “slide projector”, having less control on the projection. <strong>Solution: </strong>combine both techniques.<br></p>
                     </div>
@@ -815,7 +815,7 @@
             <div class="title col-12 col-md-8">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">
                     AI</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">I jumped to program gameplay features in C# with our scripting system maintained by <a href="jonathan_molina-prados.html" target="_blank">Jonathan</a>. We could not set any breakpoints in the scripts, so we had to debug everything using console logs. I was responsible for implementing from scratch the new AI, so I worked very close to AI designers, especially Alex.</h3>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">We stopped using Detour because we needed more control over the agents when switching between exploration and combat, so I jumped to program the AI in C# with our scripting system maintained by <a href="jonathan_molina-prados.html" target="_blank">Jonathan</a>. We could not set any breakpoints in the scripts, so we had to debug everything using console logs. I worked very close to AI designers, especially Alex.</h3>
                 
             </div>
         </div>
@@ -863,7 +863,7 @@
                         <img src="assets/images/waypoints1.gif" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">1. Circle of waypoints around Alita</h4>
+                        <h4 class="card-title mbr-fonts-style display-7">FIRST APPROACH. Circle of waypoints around Alita</h4>
                         <p class="mbr-text mbr-fonts-style display-7"><strong>→ The good: 
 </strong><br>- If a waypoint is free (not occupied and not blocked), the enemy occupies it. 
 <br>- If a waypoint is occupied by an enemy, the new enemy searches for another unoccupied waypoint. If all waypoints are occupied by enemies, the new enemy waits. 
@@ -881,9 +881,9 @@
                         <img src="assets/images/cccc.gif" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">2. Turn Steering Behaviors on/off and use different masks for each of them depending on the situation</h4>
+                        <h4 class="card-title mbr-fonts-style display-7">FINAL IMPLEMENTATION. Turn Steering Behaviors on/off and use different masks for each of them depending on the situation</h4>
                         <p class="mbr-text mbr-fonts-style display-7"><strong>→ The good: </strong>unique positioning each time. 
-<br><strong>→ The bad:</strong> if there are too many enemies, enemies can block other enemies and prevent them from positioning.<strong> Solution: </strong>leave avoidance Steering Behaviors activated while attacking and hitting.</p>
+<br><strong>→ The bad:</strong> if there are too many enemies, enemies can block other enemies and prevent them from positioning.<strong> Solution: </strong>leave avoidance Steering Behaviors activated while attacking and hitting and use a Battle Circle to limit the number of enemies.</p>
                     </div>
                     
                 </div>
@@ -1023,7 +1023,7 @@
                         <img src="assets/images/steerings.gif" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">1. Obstacle Avoidance and colliders to avoid obstacles</h4>
+                        <h4 class="card-title mbr-fonts-style display-7">FIRST APPROACH. Obstacle Avoidance and colliders to avoid obstacles</h4>
                         <p class="mbr-text mbr-fonts-style display-7"><strong>→ The good: </strong>the hit point with the wall is used to turn the agent (recalculate the direction of the movement).
 <br><strong>→ The bad: </strong>every obstacle needs a collider.</p>
                     </div>
@@ -1037,7 +1037,7 @@
                         <img src="assets/images/steeringsbehaviors.gif" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style display-7">2. Project points to the navmesh to never leave the navmesh</h4>
+                        <h4 class="card-title mbr-fonts-style display-7">FINAL IMPLEMENTATION. Project points to the navmesh to never leave the navmesh</h4>
                         <p class="mbr-text mbr-fonts-style display-7"><strong>→ The good: </strong>agents only need the navmesh to move and always stick correctly to it.<br><strong>→ The bad: </strong>it is harder to detect when an agent is trying to leave the navmesh in order to turn the agent (recalculate the direction of the movement). <strong>Solution:</strong> project one point in front of the enemy to detect when the point is out of the navmesh. In this case, project a point to each side of the enemy to detect in which direction the agent has to turn.</p>
                     </div>
                     
@@ -1352,7 +1352,7 @@
             <div class="title col-12 col-md-8">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">
                     Conclusions</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Overall, this project has been an exciting and enriching experience. <br><br>First, because I have been able to work with people I have never worked before with - and I have learnt something from everybody. Second, because I have been able to face a multitude of unique challenges from a variety of fields - and my comfort zone has expanded with them.<br><br>Thank you team for bringing&nbsp;<em>Alita: Unbreakable Warrior</em>&nbsp;to life!</h3>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">Overall, this project has been an exciting and enriching experience.<br><br>First, because I have been able to work with people I have never worked before with - and I have learnt something from everybody. Second, because I have been able to face a multitude of unique challenges from a variety of fields - and my comfort zone has expanded with them.<br><br>Thank you team for bringing&nbsp;<em>Alita: Unbreakable Warrior</em>&nbsp;to life!</h3>
                 
             </div>
         </div>
@@ -1386,7 +1386,7 @@
                         </a>
                     </div><div class="soc-item">
                         
-                            <a href="https://www.youtube.com/channel/UCmsBJ78Bx4eBhqPdRcir0Ww" target="_blank"><span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon" style="color: rgb(193, 193, 193); fill: rgb(193, 193, 193);"></span></a>
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon" style="color: rgb(0, 0, 0); fill: rgb(0, 0, 0);"></span>
                         
                     </div><div class="soc-item">
                         <a href="https://www.instagram.com/studiojellybit/?utm_source=ig_profile_share&igshid=13tzloin4pd3e" target="_blank">
