@@ -28304,11 +28304,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rlicSIfy8y",
-          "_anchor": "menu2-bm",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {}
+          "_params": {},
+          "_anchor": "menu2-bm"
         },
         {
           "alias": false,
@@ -29233,11 +29233,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rmF2ELEGwB",
-          "_anchor": "footer7-bn",
           "_protectedParams": [],
           "_global": true,
           "_once": true,
-          "_params": {}
+          "_params": {},
+          "_anchor": "footer7-bn"
         }
       ]
     }
