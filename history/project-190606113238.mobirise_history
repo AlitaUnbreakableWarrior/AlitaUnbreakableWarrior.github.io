@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Aliyah Battle Angle",
-    "currentPage": "index.html",
+    "currentPage": "about-us.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -41,7 +41,7 @@
     "versionFirst": "4.9.6",
     "siteFonts": [],
     "uniqCompNum": 231,
-    "versionPublish": "4.10.2",
+    "versionPublish": "4.10.3",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
